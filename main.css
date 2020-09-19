@@ -1,6 +1,22 @@
 .bird {
-    margin-top: 100px;
     width:170px;
     height: 180px;
-    background: url('./img/bird.png') no-repeat 0 0 transparent;
+    background: url('./img/bird.png') no-repeat 0 2000px transparent;
+}
+.world{
+    position: relative;
+    background: url('./img/sky.png')   ;
+    height:100vh;
+    background-size: cover ;
+    background-position: 0 0 ;
+    background-repeat: repeat-x ;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate {
+    from {
+        background-position: 0 0 ;
+    }
+    to {
+        background-position: 100% 0 ;
+    }
 }
