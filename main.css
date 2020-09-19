@@ -1,4 +1,6 @@
 .bird {
+    position: absolute;
+    margin-top: 200px;
     width:170px;
     height: 180px;
     background: url('./img/bird.png') no-repeat 0 2000px transparent;
