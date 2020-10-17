@@ -5,7 +5,7 @@
     height: 180px;
     background: url('./img/bird.png') no-repeat 0 2000px transparent;
 }
-.world{
+.sky{
     position: relative;
     background: url('./img/sky.png')   ;
     height:100vh;
@@ -21,4 +21,9 @@
     to {
         background-position: 100% 0 ;
     }
+}
+
+.track{
+    background: url('./img/track.png')   ;
+    height: 45px;
 }
